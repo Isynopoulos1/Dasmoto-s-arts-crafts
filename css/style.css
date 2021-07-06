@@ -1,18 +1,32 @@
-h1 {
+.products-item {
+  font-family: Helvetica;
+}
+
+.header-1 {
+  background-color: mediumspringgreen;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
   font-family: Helvetica;
   font-size: 100px;
   font-weight: bold;
   color: khaki;
-  text-align: center;
 }
-.products-item {
-  font-family: Helvetica;
-  font-weight: bold;
+.main-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container img {
+  opacity: 50%;
 }
 .products-item h2 {
   color: white;
   font-size: 32px;
-  background-color: mediumspringgreen;
   color: white;
 }
 
@@ -24,9 +38,19 @@ h1 {
 
 .products-item p:first-child {
   font-family: Helvetica;
+  font-weight: normal;
 }
+
 .products-item p:last-child {
   font-family: Helvetica;
   font-weight: bold;
   color: blue;
+}
+
+.header-2 {
+  background-color: lightcoral;
+}
+
+.header-3 {
+  background-color: skyblue;
 }
